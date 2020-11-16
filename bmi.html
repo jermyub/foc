@@ -26,17 +26,21 @@
     <section>
         <div id="showcase">
             <div class="container">
-                <h2>not gate</h2>
-                <img src="not0.png" id="notimg">
-                <div id="projects">
-                    <button onclick="document.getElementById('notimg').src='not1.png'">ON</button>
-                    <button onclick="document.getElementById('notimg').src='not0.png'">OFF</button>
-                </div>
-                <p>This is a NOT Gate.</p>
+                <h2>bmi calculator</h2>
+                <form name="bmiForm">
+                    Your Weight(lb): <input type="text" name="weight" size="10"><br />
+                    Your Height(inch): <input type="text" name="height" size="10"><br />
+                    <input type="button" value="Calculate BMI" onClick="calculateBmi()"><br />
+                    Your BMI: <input type="text" name="bmi" size="10"><br />
+                    This Means: <input type="text" name="meaning" size="25"><br />
+                    <input type="reset" value="Reset" />
+                    </form>
+                <p>This is a BMI calculator.</p>
         </div>
     </section>
 
     <footer>Copyright 2020</footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

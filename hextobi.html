@@ -26,17 +26,19 @@
     <section>
         <div id="showcase">
             <div class="container">
-                <h2>not gate</h2>
-                <img src="not0.png" id="notimg">
-                <div id="projects">
-                    <button onclick="document.getElementById('notimg').src='not1.png'">ON</button>
-                    <button onclick="document.getElementById('notimg').src='not0.png'">OFF</button>
-                </div>
-                <p>This is a NOT Gate.</p>
+                <h2>Hexadecimal to Binary</h2>
+                <form name="bmiForm">
+                    Hexadecimal: <input type="text" name="hex" size="10" style="text-transform: uppercase;"><br />
+                    Binary: <input type="text" name="bin"  size="10"><br />
+                    <input type="button" value="Convert" onClick="hex2bin()">
+                    <input type="reset" value="Reset" />
+                    </form>
+                <p>This is a hexadecmical to binary converter.</p>
         </div>
     </section>
 
     <footer>Copyright 2020</footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
