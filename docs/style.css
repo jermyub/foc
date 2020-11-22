@@ -138,6 +138,14 @@ header li a:visited {
   border-radius: 12px;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
 /*Footer*/
 footer{
     margin-top: 200px;
